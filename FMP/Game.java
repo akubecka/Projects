@@ -1,4 +1,4 @@
-package Fm;
+package FMP;
 /*
     Game takes care of one game
     Maybe make a week class that runs all the games of the week?

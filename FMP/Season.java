@@ -1,4 +1,4 @@
-package Fm;
+package FMP;
 //Season should run the season for all leagues
 
 import java.util.Map;

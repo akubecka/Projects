@@ -1,4 +1,4 @@
-package Fm;
+package FMP;
 /*
     Schedule creates the original schedule and fixes later scheduling issues
     Make sure each team plays eachother once the first half, once the second half.

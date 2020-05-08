@@ -1,4 +1,4 @@
-package Fm;
+package FMP;
 
 /*
     This class should generate a number that reflects the players overall ability at that time

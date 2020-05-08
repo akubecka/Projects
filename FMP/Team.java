@@ -1,4 +1,4 @@
-package Fm;
+package FMP;
 
 /*
     Generate players so there is at 18-24 players on each team

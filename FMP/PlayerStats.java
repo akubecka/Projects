@@ -1,4 +1,4 @@
-package Fm;
+package FMP;
 //Organizes player stats
 
 
