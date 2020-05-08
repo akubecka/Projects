@@ -13,19 +13,22 @@ public class Fm{
             Then run season using schedule
         */
         
-        Scanner myObj = new Scanner(System.in);  // Create a Scanner object
-        System.out.println("Enter leagueSize: ");
-        int leagueSize = myObj.nextInt();  // Read user input
+        //Scanner myObj = new Scanner(System.in);  // Create a Scanner object
+        //System.out.println("Enter leagueSize: ");
+        int leagueSize = 10;//myObj.nextInt();  // Read user input
         //final int leagueSize = 14;
-        League league;
+
+
+        //This code block runs everything and prints out the final year end table
+        /* League league;
         league = League.genLeague("BPL", leagueSize);
         Team[] teamArray;
         teamArray = league.getTeams();
         Schedule schedule;
         schedule = Schedule.genSchedule(league);
         Season season;
-        season = Season.genSeason(schedule, teamArray);
-        System.out.println(season);
+        season = Season.genSeason(schedule, teamArray); */
+        //System.out.println(season);
         
         //System.out.println(Season.genSeason(Schedule.genSchedule(leagueSize, League.genLeague("bpl",leagueSize).getTeams())));
         //System.out.println(Schedule.genSchedule(leagueSize, League.genLeague("bpl",leagueSize).getTeams()));
@@ -34,10 +37,10 @@ public class Fm{
         //System.out.println(League.genLeague("BPL", 20).getTeams()[2].getTeamName());
         
 
-        //League league = League.genLeague("BPL", leagueSize);
-        //Team hTeam = league.getTeams()[0];
-        //Team aTeam = league.getTeams()[1];
-        //System.out.println(Game.genGame(hTeam, aTeam));
+        League league = League.genLeague("BPL", leagueSize);
+        Team hTeam = league.getTeams()[0];
+        Team aTeam = league.getTeams()[1];
+        System.out.println(Game.genGame(hTeam, aTeam));
         
         /*System.out.println(league.getLeagueName());
         for(int i=0; i<16; i++){
